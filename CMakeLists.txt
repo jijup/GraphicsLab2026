@@ -8,7 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 #--- Subprojects
 #add_subdirectory(hello)
-add_subdirectory(vectors)
+#add_subdirectory(vectors)
+add_subdirectory(raytrace)
 
 
 
