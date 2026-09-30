@@ -13,7 +13,8 @@ include(common/OpenCV.cmake)
 #--- Subprojects
 #add_subdirectory(hello)
 #add_subdirectory(vectors)
-add_subdirectory(raytrace)
+#add_subdirectory(raytrace)
+add_subdirectory(cornellbox)
 
 #--- C++ standard
 set(CMAKE_CXX_STANDARD 11)
