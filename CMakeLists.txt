@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(GraphicsLab)
+project(GraphicsLab2026)
 
 #--- Load the common configuration
 include(common/config.cmake)
@@ -9,15 +9,18 @@ include(common/config.cmake)
 include(common/Eigen.cmake)
 include(common/OpenCV.cmake)
 
+#Assignments
+#add_subdirectory(cornellbox)
 
 #--- Subprojects
 #add_subdirectory(hello)
 #add_subdirectory(vectors)
 #add_subdirectory(raytrace)
-add_subdirectory(cornellbox)
+add_subdirectory(sampling)
+
 
 #--- C++ standard
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 
