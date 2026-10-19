@@ -17,7 +17,8 @@ include(common/OpenCV.cmake)
 #add_subdirectory(vectors)
 #add_subdirectory(raytrace)
 #add_subdirectory(sampling)
-add_subdirectory(bumpmapping)
+#add_subdirectory(bumpmapping)
+add_subdirectory(transformations)
 
 
 #--- C++ standard
