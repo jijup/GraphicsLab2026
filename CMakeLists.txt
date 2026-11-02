@@ -9,6 +9,11 @@ include(common/config.cmake)
 include(common/Eigen.cmake)
 include(common/OpenCV.cmake)
 
+#--- OpenGL configuration
+include(common/OpenGL.cmake)
+include(common/GLEW.cmake)
+include(common/GLFW.cmake)
+
 #Assignments
 #add_subdirectory(cornellbox)
 
@@ -18,7 +23,8 @@ include(common/OpenCV.cmake)
 #add_subdirectory(raytrace)
 #add_subdirectory(sampling)
 #add_subdirectory(bumpmapping)
-add_subdirectory(transformations)
+#add_subdirectory(transformations)
+add_subdirectory(shaders)
 
 
 #--- C++ standard
