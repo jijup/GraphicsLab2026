@@ -24,8 +24,8 @@ include(common/GLFW.cmake)
 #add_subdirectory(sampling)
 #add_subdirectory(bumpmapping)
 #add_subdirectory(transformations)
-add_subdirectory(shaders)
-
+#add_subdirectory(shaders)
+add_subdirectory(virtuallandscape)
 
 #--- C++ standard
 set(CMAKE_CXX_STANDARD 14)
