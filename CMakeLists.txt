@@ -16,6 +16,7 @@ include(common/GLFW.cmake)
 
 #Assignments
 #add_subdirectory(cornellbox)
+#add_subdirectory(virtuallandscape)
 
 #--- Subprojects
 #add_subdirectory(hello)
@@ -25,8 +26,8 @@ include(common/GLFW.cmake)
 #add_subdirectory(bumpmapping)
 #add_subdirectory(transformations)
 #add_subdirectory(shaders)
-#add_subdirectory(virtuallandscape)
-add_subdirectory(terrain)
+#add_subdirectory(terrain)
+add_subdirectory(island)
 
 #--- C++ standard
 set(CMAKE_CXX_STANDARD 14)
